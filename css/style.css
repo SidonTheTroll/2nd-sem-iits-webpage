@@ -1,3 +1,4 @@
+/* custom font */
 @font-face {
     font-family: "Cinzel";
     src: url("../fonts/Cinzel-VariableFont_wght.ttf") format("truetype");
@@ -8,6 +9,7 @@
     src: url("../fonts/LexendDeca-VariableFont_wght.ttf") format("truetype");
 }
 
+/* page styling */
 body {
     background-color: #1a1a1a;
     color: #e6e6e6;
@@ -18,6 +20,7 @@ body {
     padding: 20px;
 }
 
+/* background image */
 body::before {
     content: "";
     position: fixed;
@@ -75,6 +78,7 @@ th, td {
     text-align: center;
 }
 
+/* Center table images */
 td img {
     display: block;
     margin: 0 auto;
@@ -120,6 +124,7 @@ ul li {
     padding-bottom: 4px;
 }
 
+/* back to top button */
 a.top {
     display: block;
     width: fit-content;
@@ -136,6 +141,7 @@ a.top {
     transition: 0.3s;
 }
 
+/* button hover */
 a.top:hover {
     background-color: #d4af37;
     color: #1a1a1a;
